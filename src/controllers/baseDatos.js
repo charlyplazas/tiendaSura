@@ -1,0 +1,75 @@
+//QUEMAR(HARD CORE) LA BASE DE DATOS
+let productos=[
+
+{
+    nombre:"MT-10",
+    fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasuracharlyp.appspot.com/o/Mt10_gris.jpg?alt=media&token=5e460772-5039-4ebb-a9d4-2077dd1c579d","https://firebasestorage.googleapis.com/v0/b/tiendasuracharlyp.appspot.com/o/Mt10_gris.jpg?alt=media&token=5e460772-5039-4ebb-a9d4-2077dd1c579d"],
+    precio:74000000,
+    popularidad:5,
+    descripcion:"998 CC CP4 ENGINE a new simplified appearance by removing unnecessary elements from the body and refocusing attention on the pure mechanical beauty of the muscular engine and compact frame. The new double-eye single-focus LED headlights and LED position lights above the headlights are combined with a more compact nose assembly to minimize overhang and provide a refined and dominant style"
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+{
+    nombre:"",
+    fotos:[],
+    precio:0,
+    popularidad:0,
+    descripcion:""
+},
+
+]
