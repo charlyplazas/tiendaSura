@@ -20,6 +20,40 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link disabled"><i class="bi bi-cart-check fs-2"></i>
+                                <span id="pildora" class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                  </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
     </header>
     <main>
@@ -30,7 +64,8 @@
                 </div>
                 <div class="col-12 col-md-5 align-self-center">
                     <h3 id="nombreInfo">NOMBRE PRODUCTO</h3>
-                    <P id="descripcionInfo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus pariatur quidem eaque amet
+                    <P id="descripcionInfo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus
+                        pariatur quidem eaque amet
                         earum cupiditate. Corrupti mollitia cum labore soluta aut, explicabo doloribus porro animi illo
                         nisi possimus laudantium!</P>
                     <br>
@@ -51,8 +86,8 @@
                         Contactanos
                     </h3>
                     <br>
-                    <input type="number" class="form-control" value="1">
-                    <button type="button" class="btn btn-info mt-3"><i class="bi bi-cart4"></i> Añadir al
+                    <input id="cantidadProducto" type="number" class="form-control" value="1">
+                    <button id="botonAgregarCarrito" type="button" class="btn btn-info mt-3"><i class="bi bi-cart4"></i> Añadir al
                         carrito</button>
 
                 </div>
