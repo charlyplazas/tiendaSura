@@ -9,7 +9,7 @@ let carrito;
 if (JSON.parse(localStorage.getItem("carrito")) != null) {
   carrito = JSON.parse(localStorage.getItem("carrito"));
   let pildora = document.getElementById("pildora");
-  pildora.textContent=carrito.length
+  pildora.textContent = carrito.length;
 } else {
   carrito = [];
 }
@@ -27,8 +27,14 @@ descripcion.textContent = producto.descripcion;
 let precio = document.getElementById("precioInfo");
 precio.textContent = producto.precio;
 
+let popularidad = document.getElementById("popularidadInf")
+popularidad.textContent = producto.popularidad
+
 let pildora = document.getElementById("pildora");
 console.log(pildora.textContent);
+
+
+
 
 //escucho el clic en el bonoton añadir al carrito
 
