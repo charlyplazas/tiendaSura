@@ -1,18 +1,19 @@
 .banner{
-    background-image: url("../img/fotobanner.jpg");
+    /* background-image: url("../img/fotobanner.jpg"); */
     padding: 16% 32% 25% 8%;
     background-size: cover;
     background-position: top center;
-    position: relative;
+    /* position: relative; */
     z-index:1;
 }
+
 
 .banner::after{
     content: '';
     height: 100%;
     width:100%;
     background-color: black;
-    position:absolute;
+    /* position:absolute; */
     top:0;
     left:0;
     opacity: 0.45;
